@@ -1,7 +1,9 @@
-# Shared trip data (anonymized)
+# New Zealand Trip — Shared Live Data
 
-Anonymized content data for a shared New Zealand trip page: flights, itinerary, spots, stays, and car rental.
+This repository holds the live content data for the shared New Zealand trip page. The page fetches trip-data.json and renders flights, days, hotels, rental and spots from it. The ledger is embedded in the page and is not fetched from this repository.
 
-This repository contains NO booking codes, order numbers, confirmation codes, exact addresses, real names, emails, phone numbers, or ID numbers. Booking credentials and original confirmations are kept separately in the owner's private version.
+This repository contains NO booking codes, order numbers, confirmation codes, real names, emails, phone numbers, ID numbers, or booking links. Hotel street addresses are included for navigation by owner authorization. All original confirmations and credentials stay in the owner's private version and are never committed here.
 
-The shared page reads trip-data.json live from raw.githubusercontent.com on every open (cache no-store). Content updates here appear on the shared page without rebuilding or re-sharing it. The page shell (layout and features) is separate and still needs a rebuild and re-share when changed.
+Trip: 2026-12-26 to 2027-01-03. Three travellers, shown only as Nicole, Rainie and Queena.
+
+Data file: trip-data.json (UTF-8 JSON). Photos are bundled with the page itself and are not stored in this repository.
